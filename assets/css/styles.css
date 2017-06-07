@@ -36,9 +36,24 @@ body {
 	text-decoration: none;
 	color: whitesmoke;
 }
+
+#menu a:hover {
+  color: #E95853;
+
+}
+
+#bunny{
+	font-family: 'Baloo Paaji', cursive;
+	color: white;
+}
+#love{
+	font-family: 'Baloo Paaji', cursive;
+	color: #ffadff;
+}
 #portada.flex-container{
 	background-color: #e6ffff;
 	color: whitesmoke;
 	flex-direction: column;
 	align-items: center;
+	padding: 20px;
 }
