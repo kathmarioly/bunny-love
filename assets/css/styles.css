@@ -1,0 +1,42 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  /* Enlaza la tipografia Open Sans */
+}
+
+/*Contenedor Flexbox*/
+.flex-container{
+	display : flex;
+}
+
+.img-container{
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+
+#menu.flex-container{
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #0086b3;
+}
+
+.logo{
+	width: 70px;
+	margin-right: auto;
+	margin-left: 20px;
+}
+
+#menu a{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: whitesmoke;
+}
