@@ -3,7 +3,6 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
   /* Enlaza la tipografia Open Sans */
 }
 
@@ -13,11 +12,7 @@ body {
 }
 
 .img-container{
-	width: 300px;
-	height: 300px;
-	background-color: white;
-	padding: 20px;
-	border-radius: 50%;
+	
 	overflow: hidden;
 }
 
@@ -35,8 +30,15 @@ body {
 }
 
 #menu a{
+	font-family: font-family: 'Prompt', sans-serif;
 	display: inline-block;
 	padding: 20px;
 	text-decoration: none;
 	color: whitesmoke;
+}
+#portada.flex-container{
+	background-color: #e6ffff;
+	color: whitesmoke;
+	flex-direction: column;
+	align-items: center;
 }
